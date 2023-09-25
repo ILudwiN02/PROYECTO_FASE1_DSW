@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Historial de Transacciones - Pokémon Bank</title>
+        <!-- Enlaza el archivo CSS específico para la página de historial -->
+        <link rel="stylesheet" href="css/Retirar.css">
+    </head>
+       
+<body>
+    <header>
+            <h1>Cajero Automático Pokémon Bank</h1>
+        </header>
+        
+        <div class="contenedor">
+        <h1>Cajero Automático - Pago de Servicios</h1>
+        <form>
+            <label for="servicio">Seleccione el servicio:</label>
+            <select id="servicio" name="servicio" required>
+                <option value="electricidad">Electricidad</option>
+                <option value="agua">Agua</option>
+                <option value="gas">Gas</option>
+                <!-- Agrega más opciones de servicios aquí -->
+            </select>
+
+            <label for="cuenta">Número de cuenta:</label>
+            <input type="text" id="cuenta" name="cuenta" required>
+
+            <label for="monto">Monto a pagar:</label>
+            <input type="number" id="monto" name="monto" required>
+
+            <button type="submit">Pagar</button>
+        </form>
+        <a href="index.html" class="btn-back">Volver a la Página Principal</a>
+    </div>
+    
+</body>
+<footer>
+    <p>© 2023 Pokémon Bank</p>
+</footer>
+</html>

@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5a623;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.transaction-history {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction-history h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.transaction-history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.transaction-history li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.transaction-history li:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el botón de regresar */
+.btn-back {
+    display: block;
+    background-color: #f5a623;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #d4920d;
+}
+
+.btn-back:active {
+    background-color: #b47e0b;
+}
+
+/* Estilos responsivos para el botón */
+@media (max-width: 768px) {
+    .btn-back {
+        margin-top: 10px;
+    }
+}
